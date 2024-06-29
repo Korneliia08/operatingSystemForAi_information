@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  padding: 40px 0;
+  justify-content: start;
+}
+.container .containerForContent {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  row-gap: 25px;
+}
+.container .containerForContent h2 {
+  font-size: 30px;
+  color: #005000;
+  letter-spacing: 1.5px;
+}
+.container .containerForContent p {
+  font-size: 21px;
+  line-height: 25px;
+  color: #383838;
+}
+.container .containerForContent p span {
+  color: #4f0000;
+  font-weight: bold;
+}
+.container .containerForContent button {
+  display: block;
+  width: 250px;
+  padding: 12px 20px;
+  height: 100%;
+  margin-left: 2px;
+  background-color: #118c00;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 18px;
+  transition: 250ms ease;
+}
+.container .containerForContent button:hover {
+  cursor: pointer;
+  background-color: #00a900;
+}
+.container img {
+  width: 200px;
+  margin-left: 200px;
+}
+
+/*# sourceMappingURL=AboutDocumentation.module.css.map */
