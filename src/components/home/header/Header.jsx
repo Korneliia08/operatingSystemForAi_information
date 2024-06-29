@@ -1,4 +1,4 @@
-import style from "./Header.module.css";
+import style from "./Header.module.scss";
 import backGround from "../../../assets/images/backgroundHeader.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";

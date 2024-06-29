@@ -1,8 +1,8 @@
-import style from "./Aside.module.css";
+import style from "./Aside.module.scss";
 
 function Aside() {
   return (
-    <div className={`wrapper ${style.container}`}>
+    <div className={`${style.container}`}>
       <a href="#">AI Introduction</a>
       <a href="#">AI Algorithms</a>
       <a href="#">Machine Learning Overview</a>

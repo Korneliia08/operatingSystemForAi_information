@@ -1,4 +1,4 @@
-import style from "./DivForContent.module.css";
+import style from "./DivForContent.module.scss";
 
 function DivForContent() {
   return (

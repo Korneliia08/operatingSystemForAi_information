@@ -1,7 +1,7 @@
 import Nav from "../../components/documentation/nav/Nav";
 import Main from "../../components/documentation/main/Main";
 import Aside from "../../components/documentation/aside/Aside";
-import style from "./Documentation.module.css";
+import style from "./Documentation.module.scss";
 
 function Documentation() {
   return (

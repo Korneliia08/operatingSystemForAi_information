@@ -1,4 +1,4 @@
-import style from './Search.module.css';
+import style from './Search.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons";
 

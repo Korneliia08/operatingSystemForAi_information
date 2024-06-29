@@ -1,4 +1,4 @@
-import style from "./HelloBlock.module.css";
+import style from "./HelloBlock.module.scss";
 
 function HelloBlock() {
   return (
