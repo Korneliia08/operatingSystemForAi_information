@@ -8,7 +8,7 @@ function MenuElements(props) {
     return (
         <>
             <MenuElement links={[{to: 'AI-Introduction', title: 'AI Introduction '}]} title={'AI Introduction '}></MenuElement>
-            <NavLink to={'#'}>AI Algorithms <FontAwesomeIcon icon={faChevronDown}/></NavLink>
+            <NavLink to={'#'}>AI Algorithms</NavLink>
             <NavLink data-disabled='true' className={style.disabled} to={'#'}>Machine Learning Overview <FontAwesomeIcon icon={faChevronDown}/></NavLink>
             <NavLink data-disabled='true' className={style.disabled} to={'#'}>Deep Learning Basics <FontAwesomeIcon icon={faChevronDown}/></NavLink>
             <NavLink data-disabled='true' className={style.disabled} to={'#'}>NLP Guide <FontAwesomeIcon icon={faChevronDown}/></NavLink>

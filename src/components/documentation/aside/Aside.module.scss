@@ -28,7 +28,7 @@
   }
 
   .innerLink {
-    color: #000000 !important;;
+    color: #000000;
     padding-left: 40px;
   }
 
@@ -44,7 +44,7 @@
     display: flex;
     justify-content: space-between;
 
-    &:hover:not(.disabled) {
+    & > a:hover:not(.disabled) {
       cursor: pointer;
     }
 
