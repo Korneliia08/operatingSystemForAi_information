@@ -9,8 +9,13 @@ function Documentation() {
             <div className={style.line}></div>
             <Nav/>
             <div className={style.container}>
-                <Aside/>
-                <Outlet/>
+                <div className={style.scrollAside}>
+                    <Aside/>
+                </div>
+                <div className={style.scrollOutlet}>
+
+                    <Outlet/>
+                </div>
             </div>
         </>
     );

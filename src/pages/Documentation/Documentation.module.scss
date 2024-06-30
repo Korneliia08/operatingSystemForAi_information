@@ -45,3 +45,24 @@ $colors: (
   height: 5px;
   background-color: gold;
 }
+
+.scrollAside {
+  overflow-y: scroll;
+  width: auto;
+  flex-shrink: 0;
+  max-height: calc(100% - 75px);
+  @media (max-width: 900px) {
+    display: none;
+
+  }
+}
+
+.scrollOutlet {
+  overflow-y: scroll;
+  width: auto;
+  flex-grow: 100;
+  max-width: 100%;
+  //flex-shrink: 0;
+
+  max-height: calc(100vh - 75px);
+}

@@ -3,25 +3,26 @@ import style from "./DivForContent.module.scss";
 function DivForContent() {
     return (
         <div className={`${style.container}`}>
-            {/*<img src={ai} alt={''}/>*/}
+
             <ul>
                 <li>AI Introduction</li>
                 <li>AI Algorithms</li>
-                <li>Machine Learning Overview</li>
-                <li>Deep Learning Basics</li>
-                <li>NLP Guide</li>
-                <li>Computer Vision API</li>
-                <li>Reinforcement Learning</li>
-                <li>Neural Networks</li>
-                <li>AI Ethics</li>
-                <li>Data Science Techniques</li>
-                <li>AI in Healthcare</li>
-                <li>Autonomous Systems SDK</li>
-                <li>AI and Robotics</li>
-                <li>Quantum Computing & AI</li>
-                <li>AI Business Solutions</li>
+                <li className={style.disabled}>Machine Learning Overview</li>
+                <li className={style.disabled}>Deep Learning Basics</li>
+                <li className={style.disabled}>NLP Guide</li>
+                <li className={style.disabled}>Computer Vision API</li>
+                <li className={style.disabled}>Reinforcement Learning</li>
+                <li className={style.disabled}>Neural Networks</li>
+                <li className={style.disabled}>AI Ethics</li>
+                <li className={style.disabled}>Data Science Techniques</li>
+                <li className={style.disabled}>AI in Healthcare</li>
+                <li className={style.disabled}>Autonomous Systems SDK</li>
+                <li className={style.disabled}>AI and Robotics</li>
+                <li className={style.disabled}>Quantum Computing & AI</li>
+                <li className={style.disabled}>AI Business Solutions</li>
 
             </ul>
+
         </div>
     );
 }

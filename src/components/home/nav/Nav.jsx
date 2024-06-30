@@ -17,9 +17,9 @@ function Nav() {
             />
 
             <nav>
-                <NavLink to={'#'}>Solutions</NavLink>
-                <NavLink to={'#'}>Partner</NavLink>
-                <NavLink to={'#'}>Company</NavLink>
+                <NavLink className={style.disabled} to={'#'}>Solutions</NavLink>
+                <NavLink className={style.disabled} to={'#'}>Partner</NavLink>
+                <NavLink className={style.disabled} to={'#'}>Company</NavLink>
                 <NavLink
                     to={"/documentation"}
                 >

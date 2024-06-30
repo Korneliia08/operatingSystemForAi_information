@@ -12,7 +12,7 @@
     width: 100%;
     max-width: 100%;
     max-height: 100%;
-    opacity: 0.05;
+    opacity: 0.1;
     position: absolute;
   }
 
@@ -22,7 +22,12 @@
       color: #006200;
       transition: 250ms ease;
 
-      &:hover {
+      &.disabled {
+        cursor: not-allowed;
+        color: #757575;
+      }
+
+      &:hover:not(.disabled) {
         cursor: pointer;
         color: #00a400;
       }

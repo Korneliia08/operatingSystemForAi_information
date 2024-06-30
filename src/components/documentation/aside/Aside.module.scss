@@ -3,7 +3,9 @@
   height: calc(100vh - 76px);
   flex-grow: 10;
   display: flex;
+  min-width: 333px;
   max-width: 300px;
+  flex-shrink: 0;
   width: 100%;
   flex-direction: column;
   background-color: #eeeeee;

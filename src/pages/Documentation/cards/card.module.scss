@@ -1,0 +1,39 @@
+.container {
+  padding: 0 15px 15px 15px;
+  width: 100%;
+  line-height: 160%;
+
+  h2 {
+    margin: 20px 0;
+    width: 100%;
+    font-size: 27px;
+    position: relative;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    // border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    &:after {
+      content: "";
+      height: 1px;
+      bottom: -10px;
+      background: rgba(31, 31, 31, 0.37);
+      position: absolute;
+      width: 70%;
+      left: 15%;
+    }
+  }
+
+  h3 {
+    color: #004500;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+    font-size: 23px;
+    padding-top: 10px;
+  }
+
+  table {
+
+  }
+
+  display: flex;
+  flex-direction: column;
+}
