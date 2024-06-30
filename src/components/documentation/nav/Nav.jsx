@@ -34,9 +34,7 @@ function Nav() {
             <nav className={style.secondPart}>
                 <NavLink to={'/documentation'}>Welcome page</NavLink>
                 <NavLink to={'/'}>Main page</NavLink>
-
-                <NavLink to={'#'}>Lorem</NavLink>
-                <NavLink to={'#'}>Lorem</NavLink>
+ 
 
             </nav>
         </div>

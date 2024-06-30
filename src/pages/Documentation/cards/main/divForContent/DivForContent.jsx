@@ -1,10 +1,9 @@
 import style from "./DivForContent.module.scss";
-import ai from '../../../../../assets/icons/ai.png';
 
 function DivForContent() {
     return (
         <div className={`${style.container}`}>
-            <img src={ai} alt={''}/>
+            {/*<img src={ai} alt={''}/>*/}
             <ul>
                 <li>AI Introduction</li>
                 <li>AI Algorithms</li>
