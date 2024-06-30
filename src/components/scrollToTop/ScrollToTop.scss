@@ -1,0 +1,20 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: -50px; /* Początkowo poza ekranem */
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.scroll-to-top.visible {
+  right: 20px; /* Wysuwa się na ekran */
+}

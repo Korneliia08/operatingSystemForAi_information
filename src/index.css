@@ -3,6 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Arial";
+
 }
 
 * {
@@ -15,6 +17,7 @@ body {
     max-width: 1375px;
     width: 100%;
 }
-#root{
+
+#root {
     width: 100%;
 }

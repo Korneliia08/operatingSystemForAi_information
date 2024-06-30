@@ -8,6 +8,13 @@
     flex-direction: column;
     width: 60%;
     row-gap: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    @media (max-width: 900px) {
+
+      width: 100%;
+    }
 
     h2 {
       font-size: 30px;
@@ -47,6 +54,9 @@
   }
 
   img {
+    @media (max-width: 900px) {
+      display: none;
+    }
     width: 200px;
     margin-left: 200px;
   }

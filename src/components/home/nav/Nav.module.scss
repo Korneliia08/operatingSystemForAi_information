@@ -5,6 +5,9 @@
   justify-content: flex-start;
   align-items: center;
   border-bottom: 2px solid rgba(227, 227, 227, 0.94);
+  @media (max-width: 900px) {
+    justify-content: space-between;
+  }
 
   img {
     margin-right: 40px;
@@ -14,9 +17,17 @@
     }
   }
 
+  .mobileNav {
+    display: none;
+    @media (max-width: 900px) {
+      display: block;
+    }
+  }
+
   nav {
     display: flex;
     column-gap: 25px;
+
 
     a {
       text-decoration: none;
@@ -28,5 +39,14 @@
         color: #00a900;
       }
     }
+
+
+    @media (max-width: 900px) {
+      column-gap: 5px;
+      a {
+        font-size: 14px;
+      }
+    }
   }
+
 }

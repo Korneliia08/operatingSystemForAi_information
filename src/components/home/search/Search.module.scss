@@ -2,6 +2,9 @@
   display: flex;
   padding: 15px;
   align-items: center;
+  @media (max-width: 900px) {
+    display: none;
+  }
 
   .iconSearch {
     margin-right: 25px;
