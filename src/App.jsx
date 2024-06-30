@@ -1,5 +1,5 @@
 import "./App.css";
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 import Home from "./pages/Home";
 import Documentation from "./pages/Documentation/Documentation";
 import AIIntroduction from "./pages/Documentation/cards/AI-Introduction/AI-Introduction";
@@ -9,7 +9,7 @@ import AIAlgorithms2 from "./pages/Documentation/cards/AI-Algorithms/AI-Algorith
 import AIAlgorithms3 from "./pages/Documentation/cards/AI-Algorithms/AI-Algorithms_first_3";
 
 function App() {
-    const router = createBrowserRouter([
+    const router = createHashRouter([
         {
             path: "/",
             element: <Home/>,

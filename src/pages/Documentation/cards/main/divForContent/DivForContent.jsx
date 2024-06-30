@@ -1,12 +1,25 @@
 import style from "./DivForContent.module.scss";
+import img from '../../../../../assets/images/effect_right2.svg'
+import {NavLink} from "react-router-dom";
 
 function DivForContent() {
     return (
         <div className={`${style.container}`}>
 
             <ul>
-                <li>AI Introduction</li>
-                <li>AI Algorithms</li>
+                <NavLink to={'AI-Introduction'}>AI Introduction</NavLink>
+                <li>AI Algorithms
+                    <ul>
+                        <li>
+                            <NavLink to={'AI-Algorithms1'}>Machine Learning Algorithms</NavLink></li>
+                        <li>
+                            <NavLink to={'AI-Algorithms2'}>Computer Vision Algorithms</NavLink></li>
+                        <li>
+                            <NavLink to={'AI-Algorithms3'}>Deep Learning Algorithms</NavLink></li>
+
+
+                    </ul>
+                </li>
                 <li className={style.disabled}>Machine Learning Overview</li>
                 <li className={style.disabled}>Deep Learning Basics</li>
                 <li className={style.disabled}>NLP Guide</li>
@@ -22,7 +35,7 @@ function DivForContent() {
                 <li className={style.disabled}>AI Business Solutions</li>
 
             </ul>
-
+            <img src={img}/>
         </div>
     );
 }
