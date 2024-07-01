@@ -23,7 +23,8 @@
     position: absolute;
     width: 800px;
     max-width: 100%;
-    color: black;
+    // color: black;
+    color: white;
     text-shadow: 1px 1px 1px #313131;
     @media (max-width: 1100px) {
       padding-top: 20px;
@@ -36,7 +37,8 @@
     }
 
     span {
-      color: #4f0000;
+      //   color: #4f0000;
+      color: #0aff47;
     }
   }
 
